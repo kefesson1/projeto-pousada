@@ -1,0 +1,70 @@
+.background-quartos{
+    background-image: url(../img-fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 27vh;
+    background-attachment: fixed;
+    
+}
+
+img{
+    height: 100%;
+}
+
+.room{
+    margin-top: 7%;
+}
+
+.room h2{
+    text-transform: uppercase;
+    color: #3d3d3d;
+    font-size: 32px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.room p{
+    text-align: center;
+}
+
+.container-pai-imagem{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.container-filho-imagem{
+    text-decoration: none;
+    padding: 20px 0;
+    color: #3d3d3d;
+    width: 330px;
+    height: 270px;
+    margin-bottom:3%;
+}
+
+.lista{
+    padding: 0 13%;
+}
+.lista h3{
+    text-align: center;
+
+}
+
+.lista ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    line-height: 30px;
+}
+
+.lista ul li{
+    width: 25%;
+    text-align: left;
+    
+}
+
+.rodape{
+    margin-top: 5%;
+}
